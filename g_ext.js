@@ -85,7 +85,7 @@
     
     drawChart([['string', '날짜'], ['number', 'MA30'], ['number', 'MA10']], MA30_MA10, ids[0], desc[0]);
     drawChart([['string', '날짜'], ['number', 'MACD'], ['number', 'MACD-S']], MACD_MACD_S, ids[1], desc[1]);
-    drawChart([['string', '날짜'], ['number', '오실레이터']], OSC, ids[2], desc[2], 'column');
+    drawChart([['string', '날짜'], ['number', '오실레이터']], OSC, ids[2], desc[2]);
     
     
     function drawChart(columns, rows, id, desc, type = 'line') {
